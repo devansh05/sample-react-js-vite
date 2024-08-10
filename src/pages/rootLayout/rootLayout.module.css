@@ -1,0 +1,27 @@
+.rootLayout {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+.rootElements{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+    
+}
+  
+  .mainContent {
+    display: flex;
+    margin-left: 20%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0px;
+    /* background-color: yellow; */
+  }

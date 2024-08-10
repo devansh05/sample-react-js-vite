@@ -1,0 +1,11 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.lableBold{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}

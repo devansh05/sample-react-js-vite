@@ -1,0 +1,25 @@
+.scrollContainer {
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  
+  .scrollList {
+    display: inline-flex;
+  }
+  
+  .scrollItem {
+    min-width: 150px;
+    margin-right: 10px;
+    padding: 4px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  
+  .scrollItem:last-child {
+    margin-right: 0;
+  }

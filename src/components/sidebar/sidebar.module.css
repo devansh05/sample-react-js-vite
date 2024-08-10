@@ -1,0 +1,29 @@
+.sidebar {
+    max-width: 13%;
+    height: 90%;
+    color: black;
+    padding: 4px;
+    position: fixed;
+    left: 12px;
+    top: 0;
+    border-right: 1px solid #343a40;
+    position: absolute;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    border: 0px solid #343a40;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: black;
+    padding: 5px;
+  }
